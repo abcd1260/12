@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api/todos';
+const API_BASE_URL = 'https://backend-hbyx.onrender.com/api/todos';
 
 export const getTodos = () => axios.get(API_BASE_URL);
 export const addTodo = (text) => axios.post(API_BASE_URL, { text });
